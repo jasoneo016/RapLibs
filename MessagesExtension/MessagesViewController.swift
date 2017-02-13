@@ -11,9 +11,12 @@ import Messages
 
 class MessagesViewController: MSMessagesAppViewController {
     
+    @IBAction func savageButton(_ sender: UIButton, forEvent event: UIEvent) {
+    }
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     override func didReceiveMemoryWarning() {

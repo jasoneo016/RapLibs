@@ -13,6 +13,10 @@
 		84A367131E4FE6D60043DFF7 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A367121E4FE6D60043DFF7 /* MessagesViewController.swift */; };
 		84A367161E4FE6D60043DFF7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A367141E4FE6D60043DFF7 /* MainInterface.storyboard */; };
 		84A367181E4FE6D60043DFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A367171E4FE6D60043DFF7 /* Assets.xcassets */; };
+		84CE463D1E50B3F20042F4BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE463C1E50B3F20042F4BD /* AVFoundation.framework */; };
+		84CE46431E50B4E20042F4BD /* 21 21 21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84CE46421E50B4E20042F4BD /* 21 21 21.mp3 */; };
+		84CE46441E50B4E20042F4BD /* 21 21 21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84CE46421E50B4E20042F4BD /* 21 21 21.mp3 */; };
+		84CE46481E50B6570042F4BD /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE46471E50B6570042F4BD /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,9 @@
 		84A367151E4FE6D60043DFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		84A367171E4FE6D60043DFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A367191E4FE6D60043DFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CE463C1E50B3F20042F4BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84CE46421E50B4E20042F4BD /* 21 21 21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "21 21 21.mp3"; path = "../../../RapLibs/21 Savage/21 21 21.mp3"; sourceTree = "<group>"; };
+		84CE46471E50B6570042F4BD /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CE463D1E50B3F20042F4BD /* AVFoundation.framework in Frameworks */,
 				84A367101E4FE6D60043DFF7 /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +102,7 @@
 		84A3670E1E4FE6D50043DFF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84CE463C1E50B3F20042F4BD /* AVFoundation.framework */,
 				84A3670F1E4FE6D50043DFF7 /* Messages.framework */,
 			);
 			name = Frameworks;
@@ -102,8 +111,10 @@
 		84A367111E4FE6D60043DFF7 /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				84CE46421E50B4E20042F4BD /* 21 21 21.mp3 */,
 				84A367121E4FE6D60043DFF7 /* MessagesViewController.swift */,
 				84A367141E4FE6D60043DFF7 /* MainInterface.storyboard */,
+				84CE46471E50B6570042F4BD /* CollectionViewController.swift */,
 				84A367171E4FE6D60043DFF7 /* Assets.xcassets */,
 				84A367191E4FE6D60043DFF7 /* Info.plist */,
 			);
@@ -192,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A367041E4FE6D50043DFF7 /* Assets.xcassets in Resources */,
+				84CE46431E50B4E20042F4BD /* 21 21 21.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A367181E4FE6D60043DFF7 /* Assets.xcassets in Resources */,
+				84CE46441E50B4E20042F4BD /* 21 21 21.mp3 in Resources */,
 				84A367161E4FE6D60043DFF7 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CE46481E50B6570042F4BD /* CollectionViewController.swift in Sources */,
 				84A367131E4FE6D60043DFF7 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +413,7 @@
 				84A3671E1E4FE6D60043DFF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A367201E4FE6D60043DFF7 /* Build configuration list for PBXNativeTarget "RapLibs" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +422,7 @@
 				84A367221E4FE6D60043DFF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
